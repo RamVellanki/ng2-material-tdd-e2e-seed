@@ -1,6 +1,7 @@
 /**
     A SCSS styles for Angular2 Material App
 **/
+@import url(https://fonts.googleapis.com/css?family=Handlee);
 
 //importing global varibales
 @import 'scss/partials/variables';
@@ -13,3 +14,10 @@
 
 //importing responsive mixin - which works with all types of devices 
 @import 'scss/mixins/responsive';
+
+#toolbartitle{
+    font-family: Handlee;
+    font-size: 30px;
+    color: white;
+    @include toolbartitle();
+}

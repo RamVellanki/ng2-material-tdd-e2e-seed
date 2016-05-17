@@ -10,5 +10,5 @@
 @import '../../scss/mixins/responsive';
 
 #home{
-    @include vertical-align();
+    @include center();
 }
