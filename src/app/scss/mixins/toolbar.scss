@@ -1,0 +1,19 @@
+/**
+ A SCSS Mixin for all the toobars defined in the app
+ 
+**/
+
+//importing the global variables 
+@import '../partials/variables';
+
+//Mixin for primary toolbar 
+@mixin primary-toolbar{
+    
+    margin: $primary-toolbar-margin;
+    width: $default-width;
+    border-bottom: $border-bottom;   
+    box-shadow: $box-shadow;
+    position: fixed;
+    z-index: 4;
+    
+}

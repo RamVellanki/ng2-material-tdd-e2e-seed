@@ -1,0 +1,7 @@
+{
+	"deploy":{
+        "host": "localhost",
+		"port": "8383",
+        "browserSyncPort": "8484"
+	}
+}

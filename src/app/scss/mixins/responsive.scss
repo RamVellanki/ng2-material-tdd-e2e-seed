@@ -1,0 +1,53 @@
+/** 
+    A SCSS mixin for responsiveness of all device types 
+
+**/
+
+//importing global variables
+@import '../partials/variables';
+
+
+@mixin vertical-align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%, -50%);
+    -ms-transform: translateY(-50%, -50%);
+    transform: translateY(-50%, -50%);
+}
+
+// responsive mixin declaration
+@mixin responsive{
+   
+  // flex layout responsive for main id   
+  #main {
+    
+    -webkit-flex-flow:  $flex_column_align;
+            flex-flow:  $flex_column_align;
+     
+      nav
+      {
+          -webkit-order:  $responsive_flex_order;
+            order:  $responsive_flex_order;   
+      }
+      
+      nav,header 
+      {
+          
+           min-height:  $responsive_min_height;
+           max-height:  $responsive_min_height;
+      }
+      
+      // hiding left side nav in responsive mode
+      nav {
+          visibility: $hide;
+      }
+     
+   }
+
+  // flex layout responsive for home id
+  #home {
+    -webkit-flex-flow: $flex_column_align;
+            flex-flow: $flex_column_align;
+   }
+}

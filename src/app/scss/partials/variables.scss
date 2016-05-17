@@ -1,0 +1,69 @@
+/** Global Variables **/
+
+    //Colors
+    $jda-brand-color:#00a9e0;
+    $white: white;
+    $lightgrey: lightgrey;
+    $springgreen: springgreen;
+    
+    //borders and shadows
+    $box-shadow: 1px 1px 1px $lightgrey;
+    $border-bottom:1px solid $lightgrey;
+    $border_right:1px solid $lightgrey;
+    $border-top: 5px solid $springgreen;
+
+    //default values 
+     $default-width: 100%;
+     $default_background: $white;
+    
+    //Visibility properties
+    $hide: hidden;
+
+    //Positions 
+    $fixed : fixed;
+    $relative: releative;
+    $absolute: absolute;
+
+    //Padding
+    $secondary-toolbar-padding:64px;
+    
+    //spaces 
+    $tab1: 1em;
+    $tab4: 16em;
+
+    //Flex properties
+    $web_flex_type: -webkit-flex;
+    $default_flex_type: flex;
+    $flex_row_align: row;
+    $flex_column_align: column;
+    
+ 
+/** App specific variables **/ 
+ 
+    //Primary toolabar
+    $primary-toolbar-margin: -64px -8px 3px -8px;
+
+    //Secondary toolbar
+    $secondary-toolbar-margin: 64px 0 3px 0;
+    
+    //Left section
+    $Left_section_order:1;
+    $left_section_default_width: 20%;
+    
+    //Middle section
+    $middle_section_order:2;
+    $middle_section_default_width:80%;
+    
+    //Body properties
+    $body_default_height:70%;
+    $body_min_height:800px;
+    $home_default_height:100%;
+    
+    /** Responsive properties **/
+    $responsive_max_width:750px;
+    $responsive_flex_order: 0;
+    $responsive_min_height: 50px;
+    $responsive_tab4: 6em;
+    
+    //footer properties
+    $footer_default_width:99.5%;

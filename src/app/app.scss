@@ -1,0 +1,15 @@
+/**
+    A SCSS styles for Angular2 Material App
+**/
+
+//importing global varibales
+@import 'scss/partials/variables';
+
+//importing app sepefic mixins for md-toolbar component
+@import 'scss/mixins/toolbar';
+
+//importing flex layout mixin
+@import 'scss/mixins/flex_layout';
+
+//importing responsive mixin - which works with all types of devices 
+@import 'scss/mixins/responsive';

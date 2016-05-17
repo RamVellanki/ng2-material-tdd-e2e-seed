@@ -1,0 +1,72 @@
+{
+  "name": "angular2materialapp",
+  "version": "1.0.1",
+  "description": "Angular2 Material App",
+  "engines": {
+    "node": ">=5.4.0"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "prebuild": "npm run tsc",
+    "prod": "node server.js",
+    "dev": "gulp",
+    "postinstall": "typings install & node node_modules/protractor/bin/webdriver-manager update",
+    "e2e": "protractor protractor.conf.js",
+    "test": "karma start"
+  },
+  "contributors": [
+    {
+      "name": "Ram Vellanki",
+      "email": "vellanki.chandra@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "codelyzer": "0.0.19",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^3.2.2",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-sass": "^2.3.1",
+    "gulp-typescript": "^2.12.1",
+    "gulp-watch": "^4.3.5",
+    "jasmine-core": "^2.4.1",
+    "jasmine-spec-reporter": "^2.4.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-spec-reporter": "0.0.26",
+    "protractor": "^3.3.0",
+    "run-sequence": "^1.1.5",
+    "superstatic": "^4.0.2",
+    "ts-node": "^0.7.3",
+    "tslint": "^3.9.0"
+  },
+  "dependencies": {
+    "@angular/common": "^2.0.0-rc.1",
+    "@angular/compiler": "^2.0.0-rc.1",
+    "@angular/core": "^2.0.0-rc.1",
+    "@angular/platform-browser": "^2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.1",
+    "@angular/router": "^2.0.0-rc.1",
+    "@angular2-material/button": "^2.0.0-alpha.1",
+    "@angular2-material/card": "^2.0.0-alpha.1",
+    "@angular2-material/core": "^2.0.0-alpha.1",
+    "@angular2-material/input": "^2.0.0-alpha.1",
+    "@angular2-material/sidenav": "^2.0.0-alpha.1",
+    "@angular2-material/toolbar": "^2.0.0-alpha.1",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.35.0",
+    "express": "^4.13.4",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "systemjs": "^0.19.25",
+    "zone.js": "0.6.12"
+  }
+}

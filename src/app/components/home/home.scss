@@ -1,0 +1,14 @@
+/**
+    A SCSS for body area for Angular2 Material App
+
+**/
+
+//importing flex layout
+@import '../../scss/mixins/flex_layout';
+
+//importing responsive mixin - which will supports all type of devices
+@import '../../scss/mixins/responsive';
+
+#home{
+    @include vertical-align();
+}

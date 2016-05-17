@@ -1,0 +1,37 @@
+ /**
+    A SCSS mixin for defining CSS3 Flex layout 
+ **/
+ 
+ //importing global varibales
+ @import '../partials/variables';
+ 
+ //defining mixin for main id
+ @mixin main {
+ 
+   min-height: $body_min_height;
+   display: $web_flex_type;
+   display: $default_flex_type;
+   -webkit-flex-flow:  $flex_row_align;
+           flex-flow:  $flex_row_align;
+    
+    //Nesting of Left side section       
+    nav 
+    {
+        border-right: $border_right;
+        background: $default_background;
+        -webkit-flex: 2 1 $left_section_default_width;
+                flex: 2 1 $left_section_default_width;
+        -webkit-order: $Left_section_order;
+                order: $Left_section_order;
+   }
+ }
+ 
+ // Mixin for home id
+ @mixin home {
+    
+   height: $home_default_height;
+   display: $web_flex_type;
+   display: $default_flex_type;
+   -webkit-flex-flow:  $flex_row_align wrap;
+           flex-flow:  $flex_row_align wrap;
+ }
