@@ -33,3 +33,5 @@ Modify `src/systemjs.config.js` and update `materialPackages` with the new compo
 
 
 ![Output Screenshot](https://blkgsg-sn3302.files.1drv.com/y3mK13ni2xhUZOWEzCKwG7BbOf0PyGhbxv6i8y-qm6aR6GdXL1j96QlriU0EYML9GZvSmgJgeGUoxLSzVcnq3Bp_mD4AgsuL0TPXtYWJ4ixrqBo_axY54f6Ybffymv8d7ciMY9duUP3WomQnA5Op_7OWGMZMOG5gUZaJn0UqeclwQA?width=1600&height=860&cropmode=none)
+
+*Plase log any issues [here](https://github.com/RamVellanki/ng2-material-tdd-e2e-seed/issues)*
